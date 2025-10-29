@@ -1,0 +1,99 @@
+/* GestionX Theme - Estilos principales */
+:root {
+    --gestionx-primary: #2c3e50;
+    --gestionx-secondary: #3498db;
+    --gestionx-accent: #e74c3c;
+}
+
+/* Personalización global */
+.bodylogin {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-size: cover;
+}
+
+.logo-login {
+    max-width: 200px;
+    margin: 0 auto 20px;
+}
+
+/* Dashboard personalizado */
+.gestionx-widget {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Header personalizado */
+.tabs {
+    background: var(--gestionx-primary);
+}
+
+.tabs a {
+    color: white !important;
+}
+
+/* Canvas personalizado */
+.gestionx-canvas {
+    padding: 20px;
+}
+
+.gestionx-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.gestionx-widgets {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.widget {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    border-left: 4px solid var(--gestionx-primary);
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.stat-item {
+    text-align: center;
+    padding: 10px;
+}
+
+.stat-value {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--gestionx-primary);
+}
+
+.stat-label {
+    font-size: 12px;
+    color: #666;
+}
+
+.actions-grid {
+    display: grid;
+    gap: 10px;
+}
+
+.action-btn {
+    background: var(--gestionx-secondary);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.action-btn:hover {
+    background: var(--gestionx-primary);
+}
