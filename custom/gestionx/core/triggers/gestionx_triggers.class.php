@@ -33,14 +33,11 @@ class GestionXTriggers
     }
 
     /**
-     * NOTA: Las funciones modifyLoginPage() y addGlobalAssets() se han eliminado.
-     * * El módulo 'gestionxtheme' es un módulo de tipo 'theme'.
-     * Dolibarr cargará automáticamente los siguientes archivos cuando 
+     
      * el tema 'gestionx' esté activo:
      * * - /custom/gestionxtheme/theme/gestionx/css/theme.css
      * - /custom/gestionxtheme/theme/gestionx/css/login.css
      * - /custom/gestionxtheme/theme/gestionx/js/theme.js
-     * * Forzar su carga desde 'gestionx_triggers' era redundante y 
-     * creaba una dependencia innecesaria.
+   
      */
 }

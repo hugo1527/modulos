@@ -13,9 +13,9 @@ if (!$user->rights->gestionx->read) {
     accessforbidden();
 }
 
-llxHeader('', $langs->trans('GestionXDashboard'));
+xitHeader('', $langs->trans('GestionXDashboard'));
 
 $canvas = new GestionXCanvas($db, $user);
 print $canvas->showCustomDashboard();
 
-llxFooter();
+xitFooter();

@@ -13,9 +13,9 @@ if (!$user->rights->gestionx->read) {
     accessforbidden();
 }
 
-llxHeader('', $langs->trans('GestionXReports'));
+xitHeader('', $langs->trans('GestionXReports'));
 
 $canvas = new GestionXCanvas($db, $user);
 print $canvas->showCustomReports();
 
-llxFooter();
+xitFooter();
